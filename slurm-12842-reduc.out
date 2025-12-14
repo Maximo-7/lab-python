@@ -1,0 +1,52 @@
+Time taken by reduction operation: 0.05936598777770996 seconds
+56.4 ms ± 30.6 μs per loop (mean ± std. dev. of 2 runs, 10 loops each)
+
+ 	 Computing the sum of numbers in the range [0, value): 499999500000
+
+42 ms ± 438 μs per loop (mean ± std. dev. of 2 runs, 10 loops each)
+Tiempo empleado con un bucle for: 0.04042768478393555 s.
+Valor: 499999500000 
+
+7.65 ms ± 42.5 μs per loop (mean ± std. dev. of 2 runs, 100 loops each)
+Tiempo empleado con la función sum(): 0.007712125778198242 s.
+Valor: 499999500000
+90.2 ms ± 27.5 μs per loop (mean ± std. dev. of 2 runs, 10 loops each)
+Tiempo empleado con un bucle for: 0.09067678451538086 s.
+Valor: 499999500000 
+
+272 μs ± 17.1 ns per loop (mean ± std. dev. of 2 runs, 1,000 loops each)
+Tiempo empleado con la función numpy.sum(): 0.0004885196685791016 s.
+Valor: 499999500000
+385 μs ± 5.81 ns per loop (mean ± std. dev. of 2 runs, 1,000 loops each)
+Tiempo empleado con un bucle for y njit: 0.0004928112030029297 s.
+Valor: 499999500000 
+
+248 μs ± 13.1 ns per loop (mean ± std. dev. of 2 runs, 1,000 loops each)
+Tiempo empleado con la función numpy.sum() y njit: 0.0003139972686767578 s.
+Valor: 499999500000
+Time taken by reduction operation: 0.057073116302490234 seconds
+61.2 ms ± 6.45 μs per loop (mean ± std. dev. of 2 runs, 10 loops each)
+
+ 	 Computing the sum of numbers in the range [0, value): 499999500000
+
+42.6 ms ± 5.27 μs per loop (mean ± std. dev. of 2 runs, 10 loops each)
+Tiempo empleado con un bucle for: 0.04008078575134277 s.
+Valor: 499999500000 
+
+7.6 ms ± 105 ns per loop (mean ± std. dev. of 2 runs, 100 loops each)
+Tiempo empleado con la función sum(): 0.0077114105224609375 s.
+Valor: 499999500000
+96.5 ms ± 1.88 ms per loop (mean ± std. dev. of 2 runs, 10 loops each)
+Tiempo empleado con un bucle for: 0.09326386451721191 s.
+Valor: 499999500000 
+
+271 μs ± 10.4 ns per loop (mean ± std. dev. of 2 runs, 1,000 loops each)
+Tiempo empleado con la función numpy.sum(): 0.0004801750183105469 s.
+Valor: 499999500000
+385 μs ± 25.2 ns per loop (mean ± std. dev. of 2 runs, 1,000 loops each)
+Tiempo empleado con un bucle for y njit: 0.0004837512969970703 s.
+Valor: 499999500000 
+
+246 μs ± 3.01 ns per loop (mean ± std. dev. of 2 runs, 1,000 loops each)
+Tiempo empleado con la función numpy.sum() y njit: 0.0003116130828857422 s.
+Valor: 499999500000
